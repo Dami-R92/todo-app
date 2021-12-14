@@ -13,13 +13,14 @@ const todos = [
   {text: 'Tomar curso de React', completed: false},
   {text: 'Terminar ciudad videojuegos', completed: false}
 ]
+
 function App() {
   return (
     <>
     <TodoCounter/>
     <TodoSearch/>
     <TodoList>
-      {todos.map(todo => (<TodoItem/>))}
+      {todos.map(todo => (<TodoItem text={todo.text}/>))}
     </TodoList>
     <TodoButton/> 
     </>
