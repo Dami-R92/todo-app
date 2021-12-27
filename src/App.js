@@ -1,6 +1,6 @@
 import React from "react";
 
-// import './App.css';
+import './App.css';
 
 import TodoCounter from "./Components/TodoCounter/TodoCounter";
 import TodoSearch from "./Components/TodoSearch/TodoSearch";
@@ -16,14 +16,14 @@ const todos = [
 
 function App() {
   return (
-    <>
+    <div className="App">
     <TodoCounter/>
     <TodoSearch/>
     <TodoList>
       {todos.map(todo => (<TodoItem text={todo.text}/>))}
     </TodoList>
     <TodoButton/> 
-    </>
+    </div>
 
   );
 }

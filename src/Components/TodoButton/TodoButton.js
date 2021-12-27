@@ -1,10 +1,10 @@
 import React from 'react'
 
+import './TodoButton.css'
+
 function TodoButton() {
     return (
-        <div>
-            
-        </div>
+        <button className='todoButton'>+</button>
     )
 }
 

@@ -1,0 +1,15 @@
+.todoButton {
+    background-color: rgb(104, 201, 104);
+    width: 100px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.603) 2px 2px 4px;
+}
+
+.todoButton:hover {
+    background-color: greenyellow;
+    box-shadow: greenyellow 0px 0px 10px 3px;
+}

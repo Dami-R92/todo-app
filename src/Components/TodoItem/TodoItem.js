@@ -1,12 +1,13 @@
 import React from 'react'
+import './TodoItem.css'
 
 function TodoItem(props) {
     return (
-        <li>
-            <span>C</span>
+        <div className='TodoItem'>
+            <input type="checkbox" />
             <p>{props.text}</p>
-            <button>X</button>
-        </li>
+            <button className='removeItemButton'>x</button>
+        </div>
     )
 }
 
