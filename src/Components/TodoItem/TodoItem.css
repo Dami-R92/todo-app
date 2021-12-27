@@ -17,7 +17,7 @@
 }
 
 .TodoItem {
-    width: 95%;
+    width: 90%;
     margin: 15px 5px;
     padding: 0px 5px;
     background: rgba(255, 255, 255, 0.233);
@@ -36,7 +36,24 @@
 
 
 }
+
+.TodoItem--list {
+    display: flex;
+    align-items: center;
+}
 p {
-    text-align: start;
     font-weight: 600;
+    margin-left: 10px;
+}
+
+.todoItemCheckBox {
+    width: 20px;
+    height: 20px;
+    box-shadow: rgba(255, 255, 255, 0.849) 0px 0px 0px 0px;
+    border: none;
+    text-decoration: none;
+}
+.todoItemCheckBox:checked {
+    box-shadow: rgba(0, 102, 255, 0.849) 1px 1px 3px 2px;
+
 }

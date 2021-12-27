@@ -5,9 +5,9 @@ import './TodoList.css'
 function TodoList(props) {
     return (
         <section className='todoList'>
-            <ul>
+            <div>
                 {props.children}
-            </ul>
+            </div>
         </section>
     )
 }

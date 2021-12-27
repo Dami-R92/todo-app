@@ -9,9 +9,9 @@ import TodoItem from "./Components/TodoItem/TodoItem";
 import TodoButton from "./Components/TodoButton/TodoButton";
 
 const todos = [
-  {text: 'Cortar cebollas', completed: false},
-  {text: 'Tomar curso de React', completed: false},
-  {text: 'Terminar ciudad videojuegos', completed: false}
+  {text: 'Colocar Luces en Escenarios', completed: false},
+  {text: 'Revisar Video de Unity 3D - Texturas', completed: false},
+  {text: 'Terminar ciudad Araucaria', completed: false}
 ]
 
 function App() {

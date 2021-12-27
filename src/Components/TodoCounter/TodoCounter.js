@@ -4,7 +4,6 @@ import './TodoCounter.css'
 
 const estilos =  {
     color: 'white',
-    backgroundColor: 'gray'
 }
 function TodoCounter() {
     return (
