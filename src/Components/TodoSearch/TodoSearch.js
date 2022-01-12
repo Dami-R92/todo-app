@@ -5,7 +5,7 @@ import './TodoSearch.css'
 function TodoSearch() {
     return (
         <div>
-            <input placeholder="Buscar..." />
+            <input className='TodoSearch' placeholder="Buscar..." />
 
         </div>
     )
