@@ -1,5 +1,10 @@
 .todoList {
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-items: center;
+    
+}
+.todoList__container {
+    width: calc(100% - 62px);
+
 }
